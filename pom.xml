@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>DemoGitProject</groupId>
+  <artifactId>DemoGitProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <description>DemoGitProject</description>
+  
+  <dependencies>
+    
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId> testng </artifactId>
+<version>6.14.3</version>
+<scope>compile</scope> 
+</dependency>
+
+<dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>4.4.0</version>
+        <scope>test</scope>
+    </dependency>
+
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20240303</version>
+</dependency>
+<dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.3.0</version>         
+        <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+  <groupId>org.skyscreamer</groupId>
+  <artifactId>jsonassert</artifactId>
+  <version>1.5.0</version>
+  <scope>test</scope>
+</dependency>
+</dependencies>
+  
+  
+</project>
