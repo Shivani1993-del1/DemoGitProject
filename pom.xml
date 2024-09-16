@@ -5,7 +5,22 @@
   <version>0.0.1-SNAPSHOT</version>
   <description>DemoGitProject</description>
   
+  <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>2.3.2</version>
+            <configuration>
+                <source>1.6</source>
+                <target>1.6</target>
+                <encoding>UTF-8</encoding>
+            </configuration>
+        </plugin>
   <dependencies>
+  <dependency> 
+<groupId>org.apache.maven.plugin-tools</groupId>
+<artifactId>maven-plugin-annotations</artifactId>
+<version>3.6.0</version>
+</dependency>
     
 <dependency>
 <groupId>org.testng</groupId>
@@ -41,14 +56,5 @@
 </dependency>
 </dependencies>
   
- <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>2.3.2</version>
-            <configuration>
-                <source>1.6</source>
-                <target>1.6</target>
-                <encoding>UTF-8</encoding>
-            </configuration>
-        </plugin> 
+  
 </project>
