@@ -14,7 +14,7 @@ public class GitFIrstProject {
 		RequestSpecification requspc = RestAssured.given().baseUri("https://dummyjson.com").contentType("application/json");
 		//RestAssured.basePath="/auth/login";
 		
-		Response response=requspc.body("{ \"username\": \"emilys\", \"password\": \"emilyspass\" , \"expiresInMins\": \"30\"}").
+		Response response=requspc.body("{ \"username\": \"emilys\", \"password\": \"emilyspass\" , \"expiresInMins\": \"60\"}").
 		when().post("/auth/login").then().log().status().statusCode(200).extract().response();
 		
 		//Extract the token
